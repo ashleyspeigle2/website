@@ -1,0 +1,29 @@
+<html>
+
+<head>
+</head>
+
+<body>
+
+<p>Click the button to demonstrate the prompt box.</p>
+
+<button onclick="myFunction()">What's your name?</button>
+
+<p id="demo"></p>
+
+<script>
+var name = "Ashley"
+var date = "2018"
+document.write("Hi, my name is Ashley.")
+function myFunction() {
+    var person = prompt("Please enter your name");
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "!"
+    }
+}
+</script>
+
+
+</body>
+</html>
