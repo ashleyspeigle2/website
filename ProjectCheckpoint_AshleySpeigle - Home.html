@@ -1,55 +1,123 @@
 <html>
 <head>
-
 <style>
 body {
-	color: black;
+	color: white;
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: gray;
 	}
-	
-#info {
-	font-size: 2em;
-	}
+
 header {
 	color: black;
-	}
-h1 {
-	font-size: 4em;
 	
 	}
-p {
+	
+h1 {
+	position: absolute;
+	left: 45px;
+	top: 30px;
+	font-size: 5em;
+	text-shadow: 1px 1px 2px black;
+	
+	}
+h2 {
+	position: absolute;
+	left: 50px;
+	top: 200px;
 	font-size: 2em;
+	color: white;
+	width: 850px;
+	height: 200px;
+	background-color: #333;
+	box-shadow: 10px 10px 5px #A9A9A9;
+	border: 3px solid black;
 
 	}
+p {
+	position: relative;
+	width: 300px;
+	height: 50px;
+	left: 1050px;
+	top: 50px;
+	border: 3px solid black;
+}
+	
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color:  #333;
+	overflow: hidden;
+	
+}
+
+
+li {
+	float: left;
+	
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+	
+}
+img {
+	position: absolute;
+	left: 750px;
+	top: 60px;
+	z-index: -1;
+	border-radius: 50%;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
 
 </style>
-</head>
-
-<head>
-	<title>AshleySpeigle</title>
+<title>Home</title>
 </head>
 <body>
 	
-	<div>
-		<a href="ProjectCheckpoint_AshleySpeigle - Home.html">Home</a>
-		<a href="ProjectCheckpoint_AshleySpeigle - Family.html">Family</a>
-		<a href="ProjectCheckpoint_AshleySpeigle - AboutMe.html">About Me</a>
-		<a href="ProjectCheckpoint_AshleySpeigle - FreeTime.html">Free Time</a>
+	<ul>
+		<li><a class = "active" href="ProjectCheckpoint_AshleySpeigle - Home.html">Home</a></li>
+		<li><a href="ProjectCheckpoint_AshleySpeigle - Family.html">Family</a></li>
+		<li><a href="ProjectCheckpoint_AshleySpeigle - AboutMe.html">About Me</a></li>
+		<li><a href="ProjectCheckpoint_AshleySpeigle - FreeTime.html">Free Time</a></li>
 	
-	</div>
+	</ul>
 		
-	
-	<h1>Ashley's Home</h1>
-	<p> Welcome to my homepage! Here you can learn some information on me, Ashley, and my favorite things.
-	Some of these details include: </p>
-		<ul>
-			<li id="info"><b>My family</b></li> 
-			<li id="info"><b>All about me</b></li> 
-			<li id="info"><b>What I like to do in my free time</b></li>
-		</ul>
-	<img src="smiley.gif" alt="Smiley face" width="42" height="42">
+	<img src="me.jpg" alt="Me" width="150" height="150">
+	<h1>Ashley Speigle</h1>
+<h2> Welcome to my homepage! Here you can learn some information on me, Ashley, and my favorite things.
+	Some of these details include my family, all about me, and what I do in my free time. </h2>
+
+<p>Click<b><a href="https://www.facebook.com/ashley1155"
+target="_blank"> here </a></b> to go to my Facebook page. <br/> 
+Click<b><a href="https://speigsgaming.wordpress.com/"
+target="_blank"> here </a></b> to go to my blog.</p>
+
 </body>
 </html>
 	
