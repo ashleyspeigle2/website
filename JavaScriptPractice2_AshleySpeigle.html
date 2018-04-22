@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Press try it and enter the phrase you see (Pop) and it will output 
+how many letters are in that word</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<style>
+bdo {
+	color: blue;
+	
+}
+	
+</style>
+<script>
+function myFunction() {
+    var str = prompt("Enter a phrase","Pop");
+	var n = str.length;
+    if (str != null) {
+        document.getElementById("demo").innerHTML = n + str;
+    }
+}
+</script>
+
+<bdo dir="rtl">
+Pop
+</bdo>
+
+</body>
+</html>
