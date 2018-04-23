@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<span id="text"> CHOOSE YOUR STARTER </span>
+<div>
+	1)<img src="bulbasaur.png" onclick=bulbasaur()>
+	2)<img src="squirtle.png" onclick=squirtle()>
+	3)<img src="charmander.png" onclick=charmander()>
+</div>
+<p id="demo"></p>
+
+<script>
+function bulbasaur() {
+    document.getElementById("demo").innerHTML = "Bulbasaur is a grass-type.";
+}
+function squirtle() {
+    document.getElementById("demo").innerHTML = "Squirtle is a water-type.";
+}
+function charmander() {
+    document.getElementById("demo").innerHTML = "Charmander is a fire-type.";
+}
+</script>
+</body>
+</html>
